@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="incident_type" table="x_168171_deep_secu_incident_owner" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anti Malware</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b74bacb0fc20300ca2c8f8ce1050e4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>am</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application Control</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b74bacb0fc20300ca2c8f8ce1050e4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>ac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Firewall</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b74bacb0fc20300ca2c8f8ce1050e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>fw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integrity Monitoring</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9774bacb0fc20300ca2c8f8ce1050e50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>im</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Intrusion Prevention</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1774bacb0fc20300ca2c8f8ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>ip</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Log Inspection</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9374bacb0fc20300ca2c8f8ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>li</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web Reputation</label>
+            <language>en</language>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1374bacb0fc20300ca2c8f8ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+            <value>wr</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>incident_type</element>
+            <name>x_168171_deep_secu_incident_owner</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-31 09:09:45</sys_created_on>
+            <sys_id>5774bacb0fc20300ca2c8f8ce1050e4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident_type</sys_name>
+            <sys_package display_value="Deep Security" source="x_168171_deep_secu">ada25a470f420300ca2c8f8ce1050e8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deep Security">ada25a470f420300ca2c8f8ce1050e8e</sys_scope>
+            <sys_update_name>sys_choice_x_168171_deep_secu_incident_owner_incident_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-31 09:09:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

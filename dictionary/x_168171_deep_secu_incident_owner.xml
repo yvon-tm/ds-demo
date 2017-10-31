@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Incident Owner" max_length="40" name="x_168171_deep_secu_incident_owner" type="collection">
+        <element label="Comment" max_length="1000" name="comment" type="string"/>
+        <element choice="3" default="am" label="Incident Type" mandatory="true" max_length="40" name="incident_type" type="string">
+            <choice>
+                <element label="Anti Malware" sequence="0" value="am"/>
+                <element label="Application Control" sequence="1" value="ac"/>
+                <element label="Firewall" sequence="2" value="fw"/>
+                <element label="Integrity Monitoring" sequence="3" value="im"/>
+                <element label="Intrusion Prevention" sequence="4" value="ip"/>
+                <element label="Log Inspection" sequence="5" value="li"/>
+                <element label="Web Reputation" sequence="6" value="wr"/>
+            </choice>
+        </element>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>
